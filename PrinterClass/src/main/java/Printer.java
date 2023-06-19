@@ -1,6 +1,7 @@
 public class Printer {
     private int sheetsLeft;
     private int toner;
+    // declare attributes of printer 
 
     public Printer (int sheetsLeft, int toner) {
         this.sheetsLeft = sheetsLeft;
@@ -9,7 +10,7 @@ public class Printer {
 
     public int getSheetsLeft() {
         return this.sheetsLeft;
-    }
+    }// create method 
 
     public int toner() {
         return this.toner;
