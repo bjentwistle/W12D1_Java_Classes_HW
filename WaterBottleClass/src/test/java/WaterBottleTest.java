@@ -5,9 +5,10 @@ import static org.junit.Assert.assertEquals;
 
 public class WaterBottleTest {
 
-    WaterBottle waterBottle;
+    WaterBottle waterBottle; //?? 
+ 
 
-    @Before
+    @Before    //create instance of WaterBottle class 
     public void before() {
         waterBottle = new WaterBottle();
     }
