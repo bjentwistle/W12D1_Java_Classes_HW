@@ -13,10 +13,11 @@ public class WaterBottle {
     public void drink() {
         this.volume -= 10;
     }//create drink method to reduce volume
+    //need conditional statement to make sure there is enough volume to be emptied.
 
     public void empty() {
         this.volume = 0;
-    }// create emoty method
+    }// create empty method
 
     public void fill() {
         this.volume = 100;

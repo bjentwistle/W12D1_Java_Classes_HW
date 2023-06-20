@@ -5,8 +5,7 @@ import static org.junit.Assert.assertEquals;
 
 public class WaterBottleTest {
 
-    WaterBottle waterBottle; //?? 
- 
+    WaterBottle waterBottle; //declare a variable of class WaterBottle
 
     @Before    //create instance of WaterBottle class 
     public void before() {

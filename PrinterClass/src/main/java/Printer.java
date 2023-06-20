@@ -12,9 +12,9 @@ public class Printer {
         return this.sheetsLeft;
     }// create method 
 
-    public int toner() {
+    public int getToner() {
         return this.toner;
-    }
+    }//??
 
     public void print (int pages, int copies) {
 

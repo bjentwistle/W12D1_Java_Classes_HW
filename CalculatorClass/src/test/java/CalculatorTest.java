@@ -4,11 +4,13 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class CalculatorTest {
-    Calculator calculator;
+
+    private Calculator calculator;
+
     @Before
     public void before() {
         calculator = new Calculator ();
-    }
+    } //void because we are not returing anything.
 
     @Test
     public void Add() {
